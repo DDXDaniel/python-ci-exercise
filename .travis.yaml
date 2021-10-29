@@ -1,3 +1,7 @@
 language: python
 Python:
   - "3.7"
+
+script:
+  python catstr.py hello world
+  python catstr.py hello world !!
